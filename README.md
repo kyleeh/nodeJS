@@ -1,29 +1,7 @@
-# Repository for testing sites built with nodeJS and express.
+# Programming 2 Final: twist
 
 
-### Express Local Library Tutorial Folder:
-[Link to tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website)
+### TWIST FOLDER:
 
-The main learning objective for this project was creating my first start-to-finish site using nodeJS on the back end. This included creating a skeleton website, using node as a web server, creating a database via mLab, displaying the data using forms via pug html templating, and deploying the finished product to heroku.
-
-I ran into several issues throughout this project: 
-* Formatting the lifespan of the authors to look like how I wanted was difficult. All I needed to work though this was making sure that moment was installed and to not use the same names (date_of_birth vs date_of_birth_formatted) for the schema names.
-* Getting the genre detail page to display. I continue to run into a 404 error. Currently working on a fix for this one.
-* Deploying to heroku. I am able to get a heroku app running, but pushing my files onto the heroku server seems to be causing issues.
-
-Despite the issues that I ran into when working on this project, I have learned far more doing this tutorial about nodeJS than I have in the past. In particular, seeing how the views, controllers, and models all work together is much more clear to me now. I also have a much greater appreciation for the amount of dedication it takes to get a project up and running, from development to deployment. 
-
-
-### Student Database Folder:
-[Link to tutorial](https://www.youtube.com/watch?v=4yqu8YF29cU)
-
-[Link to deployment](https://student-db-rlukmi.turbo360-vertex.com/)
-
-After learning the basics of how nodeJS, express, and mongoDB can work together, this project allowed me to expand that knowledge to include deployment to Turbo360 as well. Turbo360 is a site that scaffolds RESTful apis and allows for an easy means to deploy nodeJS-based projects. 
-
-My largest obstacle in this project was the actual deployment to Turbo360. Although my local machine ran the site and its connection to the mLab-hosted database fine, the connection to the database appeared to be lost after deployment. 
-
-My greatest takeaways from this project include using URL endpoints to troubleshoot nodeJS code and good practice with writing CRUD operations that can interact with a database.
-
-
-### TWIST Folder:
+We formulated a website for TWIST (teen womanin science and technology). Through the backend, using what we learned from class about node.js, we were able to create th emodels, controllers, and routs to succesfully create the website. In the project we also had to impliment the CRUD functions (create, read, update, and delete) for each page. I also formulated some tables for our pressenter pages to hold the list of pressenters, as well as a formulate a table for the schedule page. Some of the issuess on the project were trying to get the picture to load on every page, the update and delete functions. I was able to step through the local library tutorial or find examples online when I got stuck with anything which helped solve a lot of my problems. If I was to start over I would put more of my attention into making sure the update and delete functions completly worked. Those two took the longest to formulate and figure out how to properly execute. 
+We also had some problems with Github. Some issues such as pushing to the master brach. My compputer would give me an error when i tried to commit the code i worked on, so there was some difficulties comparing and getting our codes/edits back and forth. 
